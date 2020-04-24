@@ -7,5 +7,9 @@ body {
 }
 
 main {
-  margin-top: 220px;
+  margin-top: 100px;
+}
+
+#nav-bar {
+  min-width: 320px;
 }
