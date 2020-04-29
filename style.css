@@ -13,3 +13,8 @@ main {
 #nav-bar {
   min-width: 320px;
 }
+
+#latest > iframe {
+  width: 560px;
+  height: 315px;
+}
