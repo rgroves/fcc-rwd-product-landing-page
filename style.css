@@ -15,15 +15,22 @@ body {
   min-width: 320px;
 }
 
-main {
-  margin-top: 100px;
-}
-
 #nav-bar {
   min-width: 320px;
 }
 
-#latest > iframe {
+#latest iframe {
   width: 560px;
   height: 315px;
+}
+
+section.jumbotron::before,
+#pricing::before,
+#latest::before,
+#features::before {
+  content: " ";
+  display: block;
+  height: 6.25em;
+  max-height: 6.25em;
+  min-height: 6.25em;
 }
