@@ -3,6 +3,10 @@
 }
 
 body {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.75) 33%,
+    rgba(255, 0, 0, 0.5)
+  );
   min-width: 320px;
 }
 
