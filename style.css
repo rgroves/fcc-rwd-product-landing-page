@@ -3,10 +3,15 @@
 }
 
 body {
+  background-attachment: fixed;
   background-image: linear-gradient(
-    rgba(0, 0, 0, 0.75) 33%,
-    rgba(255, 0, 0, 0.5)
-  );
+      rgba(0, 0, 0, 0.75) 75%,
+      rgba(255, 0, 0, 0.5)
+    ),
+    url("img/chains-bg-600.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-width: 320px;
 }
 
