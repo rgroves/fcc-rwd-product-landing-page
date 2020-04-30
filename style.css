@@ -27,7 +27,8 @@ body {
 section.jumbotron::before,
 #pricing::before,
 #latest::before,
-#features::before {
+#features::before,
+#footer::before {
   content: " ";
   display: block;
   height: 6.25em;
