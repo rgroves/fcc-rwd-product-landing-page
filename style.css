@@ -35,3 +35,18 @@ section.jumbotron::before,
   max-height: 6.25em;
   min-height: 6.25em;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #features div.media {
+    text-align: inherit !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #features div.media {
+    width: 70% !important;
+    border: 5px solid white;
+  }
+}
